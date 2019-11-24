@@ -1,0 +1,30 @@
+{
+  "name": "<%= name %>",
+  "dependencies": {
+    "cloud-ui.vusion": "^0.6.0"
+  },
+  "devDependencies": {
+    "@vue/babel-preset-app": "^3.10.0",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "eslint": "^5.15.3",
+    "eslint-config-vusion": "^3.0.2",
+    "husky": "^3.0.4",
+    "stylelint": "^9.3.0",
+    "stylelint-config-vusion": "^1.1.2",
+    "vue": "^2.6.10",
+    "vue-cli-plugin-vusion": "^0.8.4",
+    "vue-template-compiler": "^2.6.10",
+    "vusion": "^0.10.0",
+    "vusion-hooks": "^0.3.0",
+    "vusion-utils": "^0.4.6"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node node_modules/vusion-hooks/pre-commit"
+    }
+  }
+}
