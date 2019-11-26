@@ -18,12 +18,12 @@
     "vusion-hooks": "^0.3.0",
     "vusion-utils": "^0.4.6"
   },
-  "peerDependencies": {
-    "vue": "^2.6.10"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "node node_modules/vusion-hooks/pre-commit"
     }
+  },
+  "vusion": {
+    "type": "repository"
   }
 }
