@@ -1,10 +1,15 @@
 .DS_Store
 node_modules/
+vusion_packages/
 npm-debug.log
 lerna-debug.log
 
-/public/
-/test-reports/
+dist/
+dist-theme/
+dist-raw/
+public/
+screenshots/
+test-reports/
 
 yarn.lock
 package-lock.json
